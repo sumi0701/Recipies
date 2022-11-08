@@ -1,0 +1,57 @@
+.recipe {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+
+}
+
+.recipe:hover {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 10px 30px rgb(131, 37, 84);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgba(139, 61, 119, 0);
+    align-items: center;
+    color: white;
+
+
+}
+
+
+.calorie {
+    font-weight: bolder !important;
+    border: 2px solid rgb(238, 75, 57);
+    font-size: 20px;
+}
+
+
+.image {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5vh;
+}
+
+.ingredient {
+    font-size: 30px;
+
+}
